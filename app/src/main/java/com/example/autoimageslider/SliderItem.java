@@ -1,0 +1,19 @@
+package com.example.autoimageslider;
+
+public class SliderItem {
+
+    private int image;
+
+    public SliderItem(int image){
+        this.setImage(image);
+    }
+
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+}
